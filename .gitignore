@@ -1,0 +1,20 @@
+
+#Pyhton cache files
+__pycache__/
+*.py[cod]
+
+#FAISS index files
+vector_index/
+
+# api keys and environment variables
+.env
+
+#virtual environment
+venv/
+
+# Temporary files
+*.tmp
+# Logs
+
+#pdf files
+*.pdf
