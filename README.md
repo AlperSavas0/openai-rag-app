@@ -61,6 +61,7 @@ openai-rag-app/
 │   ├── llm.py              # LLM-based answer generation
 │   └── interface.py        # Gradio interface
 ├── data/                   # Sample or user PDF uploads (ignored by git)
+├── main.py                 # Test script for the pipeline 
 ├── requirements.txt
 └── .env                    # Your API key (ignored by git)
 ```
