@@ -51,6 +51,18 @@ python app/interface.py
 
 Then open your browser using the local URL provided in the terminal output.
 
+## Running Tests
+
+To run unit tests:
+
+```bash
+# On Windows (PowerShell)
+$env:PYTHONPATH="."; pytest
+
+# On Unix/macOS
+PYTHONPATH=. pytest
+```
+
 ## Structure
 
 ```
@@ -60,6 +72,7 @@ openai-rag-app/
 │   ├── retriever.py        # Embedding and FAISS logic
 │   ├── llm.py              # LLM-based answer generation
 │   └── interface.py        # Gradio interface
+├── tests/                  # Unit tests for key components
 ├── data/                   # Sample or user PDF uploads (ignored by git)
 ├── main.py                 # Test script for the pipeline 
 ├── requirements.txt
